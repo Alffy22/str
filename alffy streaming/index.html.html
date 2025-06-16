@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ALFFY STREAMING</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d0d0d;
+      color: white;
+    }
+
+    .header {
+      background-color: #1c1c1c;
+      padding: 15px;
+      font-size: 22px;
+      font-weight: bold;
+      text-align: center;
+      color: white;
+    }
+    .logo {
+      width: 30px;
+    height: 30px;
+    border-radius: 50%;
+vertical-align: middle;
+margin-right: 10px;
+
+    }
+
+    .banner {
+      background: url('https://via.placeholder.com/600x200.png?text=Banner+Live+TV') no-repeat center center;
+      background-size: cover;
+      height: 200px;
+      position: relative;
+    }
+
+    .banner-text {
+      position: absolute;
+      bottom: 10px;
+      left: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .channels {
+      display: flex;
+      justify-content: space-around;
+      background-color: #1a1a1a;
+      padding: 15px;
+      flex-wrap: wrap;
+    }
+
+    .channel {
+      text-align: center;
+      margin: 10px;
+    }
+
+    .channel img {
+      width: 60px;
+      height: 60px;
+      border-radius: 15px;
+      margin-bottom: 5px;
+      border: 2px solid white;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* Efek hover untuk logo medsos */
+    .channel a[href*="youtube"]:hover img,
+    .channel a[href*="wa.me"]:hover img,
+    .channel a[href*="instagram"]:hover img {
+      transform: scale(1.2);
+      box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+    }
+
+    .channel a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #111;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+      font-size: 12px;
+    }
+
+    .footer div {
+      text-align: center;
+    }
+
+    .footer i {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <img src="alffys.jpeg" alt="logo" class="logo">
+    ALFFY STREAMING</div>
+
+  <div class="banner">
+    <div class="banner-text">Nonton Sekarang, Gratis!</div>
+  </div>
+
+  <div class="channels">
+    <div class="channel">
+      <a href="https://www.youtube.com/watch?v=oVWeq12DDAs" target="_blank">
+        <img src="youtube.jpeg" alt="YouTube">
+        <div>YOUTUBE</div>
+      </a>
+    </div>
+    <div class="channel">
+      <a href="https://wa.me/6281287973804" target="_blank">
+        <img src="whatsapp.jpeg" alt="WhatsApp">
+        <div>WHATSAPP</div>
+      </a>
+    </div>
+    <div class="channel">
+      <a href="https://www.instagram.com/audiographicsuniquestyle" target="_blank">
+        <img src="instagram.jpeg" alt="Instagram">
+        <div>INSTAGRAM</div>
+      </a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div>
+      <i>🏠</i>
+      Beranda
+    </div>
+    <div>
+      <i>🔴</i>
+      Live
+    </div>
+    <div>
+      <i>📺</i>
+      Channel
+    </div>
+    <div>
+      <i>👤</i>
+      Akun
+    </div>
+  </div>
+
+</body>
+</html>
